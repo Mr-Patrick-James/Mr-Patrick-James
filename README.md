@@ -13,7 +13,9 @@
       </p>
     </td>
     <td>
-      <img width="300" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/bg_male/male0001.png"/>
+      <a href="https://Mr-Patrick-James.github.io" target="_blank">
+        <img width="300" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/bg_male/male0001.png"/>
+      </a>
     </td>
   </tr>
 </table>
