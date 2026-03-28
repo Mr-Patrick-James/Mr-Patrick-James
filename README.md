@@ -173,28 +173,7 @@ func main() {
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
-## 📌 Popular Repositories
 
-<p align="center">
-  <a href="https://github.com/Mr-Patrick-James/FIT_GYM_V2">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=FIT_GYM_V2&theme=radical&hide_border=false"/>
-  </a>
-  <a href="https://github.com/Mr-Patrick-James/CNESIS">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=CNESIS&theme=radical&hide_border=false"/>
-  </a>
-  <a href="https://github.com/Mr-Patrick-James/OSAS_WEB">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=OSAS_WEB&theme=radical&hide_border=false"/>
-  </a>
-  <a href="https://github.com/Mr-Patrick-James/FIT_GYM">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=FIT_GYM&theme=radical&hide_border=false"/>
-  </a>
-  <a href="https://github.com/Mr-Patrick-James/Mr-Patrick-James.github.io">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=Mr-Patrick-James.github.io&theme=radical&hide_border=false"/>
-  </a>
-  <a href="https://github.com/Mr-Patrick-James/MyPortfolio">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=MyPortfolio&theme=radical&hide_border=false"/>
-  </a>
-</p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
