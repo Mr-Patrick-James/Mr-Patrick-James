@@ -5,8 +5,8 @@ function locomotive() {
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
-    multiplier: 1.0,
-    lerp: 0.09,
+    multiplier: 1.3,
+    lerp: 0.1,
   });
 
   locoScroll.on("scroll", ScrollTrigger.update);
