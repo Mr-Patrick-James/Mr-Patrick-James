@@ -136,6 +136,17 @@ func main() {
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
+## ⏱️ Spent My Time
+
+<p align="center">
+  <a href="https://github.com/Mr-Patrick-James">
+    <img width="60%" src="https://github-readme-stats.vercel.app/api/wakatime?username=Mr-Patrick-James&hide_title=true&hide_border=true&langs_count=10&bg_color=00000000&text_color=777&theme=radical"/>
+    <img width="30%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"/>
+  </a>
+</p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
+
 ## 🏆 GitHub Trophies
 
 <p align="center">
