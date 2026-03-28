@@ -185,11 +185,11 @@ func main() {
   <a href="https://github.com/Mr-Patrick-James/OSAS_WEB">
     <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=OSAS_WEB&theme=radical&hide_border=false"/>
   </a>
-  <a href="https://github.com/Mr-Patrick-James/OSAS-SYTEM-ALPHA">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=OSAS-SYTEM-ALPHA&theme=radical&hide_border=false"/>
+  <a href="https://github.com/Mr-Patrick-James/FIT_GYM">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=FIT_GYM&theme=radical&hide_border=false"/>
   </a>
-  <a href="https://github.com/Mr-Patrick-James/ClassroomFinanceTracker">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=ClassroomFinanceTracker&theme=radical&hide_border=false"/>
+  <a href="https://github.com/Mr-Patrick-James/Mr-Patrick-James.github.io">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=Mr-Patrick-James.github.io&theme=radical&hide_border=false"/>
   </a>
   <a href="https://github.com/Mr-Patrick-James/MyPortfolio">
     <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=MyPortfolio&theme=radical&hide_border=false"/>
