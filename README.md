@@ -173,17 +173,28 @@ func main() {
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
-## 🚀 Featured Projects
+## 📌 Popular Repositories
 
-| Project | Description | Stack | Status |
-|---|---|---|---|
-| 🏋️ **FIT_GYM_V2** | Advanced Gym Management System | PHP, MySQL | ✅ Active |
-| 🎓 **CNESIS** | College Enrollment & Student Management | PHP, MySQL | ✅ Active |
-| 📋 **OSAS_WEBSYS** | Student Attendance & Violations Tracker | JavaScript | ✅ Active |
-| ⚡ **Arduino Flood Alert** | IoT flood detection with sensor array | Arduino | 🔒 Private |
-| 🐍 **Snake Game** | Classic Snake game | C# | ✅ Done |
-| ♟️ **Brazilian Checkers** | Windows Forms board game | C# | ✅ Done |
-| 🎮 **Pokemon Game** | Custom Pokemon game | C# | ✅ Done |
+<p align="center">
+  <a href="https://github.com/Mr-Patrick-James/FIT_GYM_V2">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=FIT_GYM_V2&theme=radical&hide_border=false"/>
+  </a>
+  <a href="https://github.com/Mr-Patrick-James/CNESIS">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=CNESIS&theme=radical&hide_border=false"/>
+  </a>
+  <a href="https://github.com/Mr-Patrick-James/OSAS_WEB">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=OSAS_WEB&theme=radical&hide_border=false"/>
+  </a>
+  <a href="https://github.com/Mr-Patrick-James/OSAS-SYTEM-ALPHA">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=OSAS-SYTEM-ALPHA&theme=radical&hide_border=false"/>
+  </a>
+  <a href="https://github.com/Mr-Patrick-James/ClassroomFinanceTracker">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=ClassroomFinanceTracker&theme=radical&hide_border=false"/>
+  </a>
+  <a href="https://github.com/Mr-Patrick-James/MyPortfolio">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Patrick-James&repo=MyPortfolio&theme=radical&hide_border=false"/>
+  </a>
+</p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
