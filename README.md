@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/male_model-2.png" width="280" />
-
 # PATRICK JAMES V. ROMASANTA
 ### Developer & Maker — Web · Desktop · IoT
 
@@ -19,7 +17,7 @@
 
 > **Check out my interactive portfolio →** [Mr-Patrick-James.github.io](https://Mr-Patrick-James.github.io)
 
-[![Portfolio Preview](https://github.com/Mr-Patrick-James/Mr-Patrick-James.github.io/raw/main/assets/images/male_model-2.png)](https://Mr-Patrick-James.github.io)
+[![Portfolio Preview](https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/bg_male/male0001.png)](https://Mr-Patrick-James.github.io)
 
 </div>
 
