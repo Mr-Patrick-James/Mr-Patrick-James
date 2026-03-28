@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/bg_male/male0001.png" width="280" />
+<img src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/male_model-2.png" width="280" />
 
 # PATRICK JAMES V. ROMASANTA
 ### Developer & Maker — Web · Desktop · IoT
