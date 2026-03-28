@@ -374,7 +374,7 @@ gsap.to(imageSeq, {
     scrub: 0.15,
     trigger: "#canvas-wrapper",
     start: "top top",
-    end: "+=2500",
+    end: "+=6000",
     scroller: "#main",
     pin: true,
   },
@@ -442,7 +442,7 @@ window.addEventListener("load", () => {
   const sectionCount = document.querySelectorAll(".page").length;
   const footerCount = document.querySelectorAll("footer").length;
   const sectionHeight = window.innerHeight;
-  const pinDuration = 4000;
+  const pinDuration = 7000;
 
   const totalNeededHeight =
     pinDuration + sectionCount * sectionHeight + footerCount * 800;
