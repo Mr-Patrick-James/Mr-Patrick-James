@@ -145,13 +145,7 @@ func main() {
   </a>
 </p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img width="80%" src="https://github-profile-trophy.vercel.app/?username=Mr-Patrick-James&theme=radical&no-frame=false&no-bg=true&margin-w=4"/>
-</p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
