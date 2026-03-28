@@ -139,10 +139,9 @@ func main() {
 ## ⏱️ Spent My Time
 
 <p align="center">
-  <a href="https://github.com/Mr-Patrick-James">
-    <img width="60%" src="https://github-readme-stats.vercel.app/api/wakatime?username=Mr_Patrick_James&hide_title=true&hide_border=true&langs_count=10&bg_color=00000000&text_color=777&theme=radical"/>
-    <img width="30%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"/>
-  </a>
+  <img width="30%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"/>
+  <br><br>
+  <i>WakaTime stats will appear here once I start tracking coding sessions.</i>
 </p>
 
 
