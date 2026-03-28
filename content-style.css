@@ -1,0 +1,310 @@
+
+.text-block {
+  max-width: 400px;
+  z-index: 2;
+  will-change: transform, opacity;
+}
+
+.text-block.left {
+  text-align: left;
+  margin-top: 100px;
+  margin-right: auto;
+}
+
+.text-block.right {
+  text-align: right;
+  margin-left: auto;
+}
+
+.center-text {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Typography */
+.section-label {
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+/* */
+/* ========== Reset & Globals ========== */
+
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  background: #0b0b0b;
+  color: #fff;
+  font-family: 'Neue Montreal', 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* ========== Fixed Character Canvas ========== */
+#character-canvas {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 4;
+  transition: opacity 1.5s ease-out;
+}
+
+/* ========== Scroll Container ========== */
+#main[data-scroll-container] {
+  position: relative;
+  z-index: 2;
+}
+
+/* ========== Sections ========== */
+.page {
+  min-height: 90vh;
+  padding: 60px 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  scroll-snap-align: start;
+  position: relative;
+  z-index: 2;
+  gap: 30px;
+  background: transparent;
+}
+
+.page.center-text {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 5vw;
+  gap: 20px;
+}
+
+/* === Ensure ONLY Page 1 and Page 2 and Floating Banner are behind canvas === */
+/* Only these should be behind canvas */
+#page1, #page2,
+.floating-banner {
+  position: relative !important;
+  z-index: 2 !important;
+  background: transparent !important;
+}
+
+/* Fix margin before floating banner */
+#page2 {
+  margin-bottom: 0 !important;
+  padding-bottom: 20px;
+}
+
+/* Sections that should fully block the canvas */
+.canvas-cover-section {
+  background-color: #0b0b0b;
+  position: relative;
+  z-index: 10;
+  padding: 0;
+}
+
+/* ========== Text Blocks ========== */
+.text-block {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-block.left {
+  text-align: left;
+}
+
+.text-block.right {
+  text-align: right;
+}
+
+.text-block.right.small {
+  max-width: 500px;
+}
+
+/* ========== Typography ========== */
+.section-label {
+  font-size: 0.75rem;
+  color: #888;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.main-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.small {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  opacity: 0.75;
+}
+
+.big-text {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.big-text .italic {
+  font-style: italic;
+  color: #ff3c3c;
+}
+
+.big-text .outline {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  text-stroke: 1px #fff;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.8;
+  opacity: 0.85;
+  margin-top: 10px;
+}
+
+.scroll-hint {
+  font-size: 0.8rem;
+  color: #aaa;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+/* ========== Contact Form ========== */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin-left: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #1a1a1a;
+  border: none;
+  color: #fff;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 6px;
+  resize: none;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+}
+
+.contact-form .btn {
+  background: #ff3c3c;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form .btn:hover {
+  background: #e02e2e;
+}
+
+
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 2.5rem;
+  }
+
+  .big-text {
+    font-size: 2rem;
+  }
+
+  .text-block.right,
+  .text-block.left {
+    text-align: center;
+  }
+
+  .page {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 60px 5vw;
+  }
+
+  .contact-form {
+    margin: 0 auto;
+  }
+}
+
+
+.floating-banner.large {
+  width: 100%;
+  overflow: hidden;
+  background:  #000000;
+  padding: 20px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.floating-banner.large {
+  background:  #000000;
+  padding: 0;
+}
+.floating-banner
+{
+  background:  #000000;
+}
+.floating-text {
+  white-space: nowrap;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  animation: marquee 25s linear infinite;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.floating-text.reverse {
+  animation: marquee-reverse 40s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

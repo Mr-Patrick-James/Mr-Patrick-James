@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patrick James V. Romasanta — Developer & Maker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="content-style.css" />
+  <style>
+    /* ── FONT OVERRIDES ── */
+    *, body { font-family: 'Space Grotesk', sans-serif; }
+    h1, h2, h3, .main-heading, .hero-name, .big-text { font-family: 'Syne', sans-serif; }
+    .section-label, .hero-role, .section-title, .stat-label, .project-tag, .meta, .nav-cta, .tag { font-family: 'Space Mono', monospace; }
+
+    /* ── STATIC SECTIONS — solid block always above canvas ── */
+    #static-content {
+      position: relative;
+      z-index: 999;
+      background: #000;
+      isolation: isolate;
+    }
+    .navbar,
+    #hero-intro,
+    .stats-bar,
+    #about.section,
+    #projects.section,
+    #skills.section,
+    #contact.section,
+    .footer {
+      position: relative;
+      z-index: 1;
+    }
+    #hero-intro  { background-color: #000; }
+    .stats-bar   { background-color: #080808; }
+    .section     { background-color: #050505; }
+    .section.dark{ background-color: #000; }
+    .footer      { background-color: #000; }
+
+    /* ── NAVBAR ── */
+    .navbar {
+      align-items: center;
+      background: transparent !important;
+      z-index: 9999 !important;
+    }
+    .navbar .logo {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
+    .navbar .logo .dot { color: #ff3c3c; font-size: 1.6rem; line-height: 0; position: relative; top: 3px; }
+    .navbar nav { display: flex; align-items: center; gap: 6px; }
+    .navbar nav a {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #888;
+      padding: 7px 14px;
+      border-radius: 8px;
+      transition: color 0.2s, background 0.2s;
+    }
+    .navbar nav a:hover { color: #fff; background: rgba(255,255,255,0.06); }
+    .nav-cta {
+      background: #ff3c3c !important;
+      color: #fff !important;
+      border-radius: 8px !important;
+      padding: 7px 18px !important;
+    }
+    .nav-cta:hover { background: #e02e2e !important; }
+
+    /* ── HERO INTRO ── */
+    #hero-intro {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 140px 8vw 80px;
+      flex-wrap: wrap;
+      gap: 40px;
+      position: relative;
+      z-index: 2;
+    }
+    .hero-role {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #ff3c3c;
+      margin-bottom: 1.2rem;
+    }
+    .hero-name {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(3.2rem, 8vw, 7.5rem);
+      font-weight: 800;
+      line-height: 0.95;
+      letter-spacing: -0.03em;
+    }
+    .hero-name .accent {
+      color: transparent;
+      -webkit-text-stroke: 2px #ff3c3c;
+    }
+    .hero-bio { font-size: 1rem; line-height: 1.85; color: #999; max-width: 400px; }
+    .hero-links { display: flex; gap: 12px; margin-top: 2.2rem; flex-wrap: wrap; }
+    .hero-links a {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 12px 26px;
+      border-radius: 6px;
+      transition: 0.25s;
+    }
+    .btn-primary { background: #ff3c3c; color: #fff; }
+    .btn-primary:hover { background: #e02e2e; transform: translateY(-2px); }
+    .btn-outline { border: 1px solid #333; color: #aaa; }
+    .btn-outline:hover { border-color: #fff; color: #fff; transform: translateY(-2px); }
+    .about-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+    .tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.06em;
+      padding: 5px 12px;
+      border: 1px solid #222;
+      border-radius: 4px;
+      color: #666;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .tag:hover { border-color: #ff3c3c55; color: #ccc; }
+
+    /* ── STATS BAR ── */
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      flex-wrap: wrap;
+      background: #080808;
+      border-top: 1px solid #151515;
+      border-bottom: 1px solid #151515;
+      position: relative;
+      z-index: 10;
+    }
+    .stat {
+      text-align: center;
+      padding: 50px 60px;
+      border-right: 1px solid #151515;
+      flex: 1;
+      min-width: 140px;
+    }
+    .stat:last-child { border-right: none; }
+    .stat-num {
+      font-family: 'Syne', sans-serif;
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+    .stat-num span { color: #ff3c3c; }
+    .stat-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #444;
+      margin-top: 8px;
+    }
+
+    /* ── SECTION HEADINGS ── */
+    .section-title {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #ff3c3c;
+      margin-bottom: 10px;
+    }
+    .section h2 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 50px;
+    }
+
+    /* ── ABOUT ── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .about-grid p { line-height: 1.9; color: #888; font-size: 0.95rem; }
+    @media (max-width: 768px) { .about-grid { grid-template-columns: 1fr; } }
+
+    /* ── PROJECT CARDS ── */
+    .cards { gap: 20px; }
+    .card {
+      background: #0c0c0c;
+      border: 1px solid #1a1a1a;
+      border-radius: 16px;
+      padding: 28px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(600px circle at var(--mx,50%) var(--my,50%), rgba(255,60,60,0.06), transparent 60%);
+      opacity: 0;
+      transition: opacity 0.4s;
+      pointer-events: none;
+    }
+    .card:hover::before { opacity: 1; }
+    .card:hover {
+      border-color: #ff3c3c44;
+      transform: translateY(-4px);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,60,60,0.1);
+    }
+    .project-tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #ff3c3c;
+      background: rgba(255,60,60,0.08);
+      border: 1px solid rgba(255,60,60,0.2);
+      padding: 4px 10px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 14px;
+    }
+    .card h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #fff;
+      letter-spacing: -0.01em;
+    }
+    .card p { font-size: 0.85rem; color: #666; line-height: 1.65; }
+    .card .meta {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      color: #333;
+      margin: 12px 0 0;
+      letter-spacing: 0.04em;
+    }
+    .card .btn {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      padding: 8px 18px;
+      margin-top: 16px;
+      display: inline-block;
+      text-decoration: none;
+      border-radius: 6px;
+      background: #161616;
+      color: #aaa;
+      border: 1px solid #222;
+      transition: 0.2s;
+    }
+    .card .btn:hover { background: #ff3c3c; color: #fff; border-color: #ff3c3c; }
+
+    /* ── SKILLS ── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 16px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .skill-card {
+      background: #0c0c0c;
+      border: 1px solid #1a1a1a;
+      border-radius: 16px;
+      padding: 28px 24px;
+      transition: border-color 0.3s, transform 0.3s;
+    }
+    .skill-card:hover { border-color: #ff3c3c33; transform: translateY(-3px); }
+    .skill-icon { font-size: 1.6rem; margin-bottom: 14px; }
+    .skill-card h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+    .skill-card p { font-size: 0.8rem; color: #555; line-height: 1.7; }
+
+    /* ── CONTACT ── */
+    #contact.section { text-align: center; }
+    #contact .contact-form { margin: 0 auto; max-width: 480px; }
+    .contact-info { display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; margin-bottom: 44px; }
+    .contact-info a {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: #555;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .contact-info a:hover { color: #fff; }
+
+    /* ── FOOTER LOGO ── */
+    .footer-logo-text {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+    .footer-logo-text span { color: #ff3c3c; }
+  </style>
+</head>
+<body>
+  <canvas id="character-canvas"></canvas>
+
+  <!-- Navbar outside #main so position:fixed isn't trapped by isolation:isolate -->
+  <header class="navbar">
+    <div class="logo">PJ<span class="dot">.</span>dev</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+    </nav>
+  </header>
+
+  <div id="main">
+
+    <!-- ── SCROLL ANIMATION PAGES ── -->
+    <section class="page" id="page1">
+      <div class="text-block left">
+        <div class="section-label">PORTFOLIO / DEVELOPER &amp; MAKER</div>
+        <h1 class="main-heading">PATRICK<br>JAMES V.<br>ROMASANTA</h1>
+      </div>
+      <div class="text-block right small">
+        <p>
+          WEB · DESKTOP · IoT DEVELOPER<br>
+          BUILDING SYSTEMS THAT SOLVE<br>
+          REAL-WORLD PROBLEMS.<br>
+          FROM ENROLLMENT PLATFORMS<br>
+          TO FLOOD ALERT HARDWARE —<br>
+          I SHIP THINGS THAT WORK.
+        </p>
+        <p class="scroll-hint" style="margin-top:20px;">SCROLL TO EXPLORE ↓</p>
+      </div>
+    </section>
+
+    <section class="page" id="page2">
+      <div class="text-block left">
+        <div class="section-label">PORTFOLIO / WHAT I DO</div>
+        <h1 class="main-heading">CODE.<br>CREATE.<br>DEPLOY.</h1>
+      </div>
+      <div class="text-block right">
+        <h2 class="sub-heading">WEB SYSTEMS<br>DESKTOP APPS<br>IoT HARDWARE</h2>
+        <p class="small">...AND ALWAYS LEARNING SOMETHING NEW</p>
+      </div>
+    </section>
+
+    <section class="floating-banner large reverse">
+      <div class="floating-text reverse">
+        * PATRICK JAMES V. ROMASANTA * DEVELOPER &amp; MAKER * WEB · DESKTOP · IoT * OPEN TO WORK *
+      </div>
+    </section>
+    <section class="floating-banner">
+      <div class="floating-text">
+        PHP · C# · JAVASCRIPT · VUE · ARDUINO · MYSQL · HTML · CSS · GIT · GITHUB · UI/UX *
+      </div>
+    </section>
+
+    <section class="page center-text">
+      <h1 class="big-text"><span class="italic">14+</span> PROJECTS. <span class="outline">COUNTING.</span></h1>
+      <p class="description">
+        FROM GAME DEVELOPMENT TO FLOOD ALERT SYSTEMS —<br>
+        EVERY PROJECT IS A PROBLEM SOLVED<br>
+        AND A SKILL LEVELED UP.
+      </p>
+      <p class="scroll-hint">SCROLL TO READ...</p>
+    </section>
+
+    <section class="page neruzaku-contact">
+      <div class="text-block left">
+        <div class="section-label">PORTFOLIO / CONTACT</div>
+        <h1 class="main-heading">LET'S BUILD<br>SOMETHING<br>TOGETHER</h1>
+      </div>
+      <div class="text-block right">
+        <form class="contact-form">
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Your email" required />
+          <textarea placeholder="Your message"></textarea>
+          <button type="submit" class="btn">SEND →</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ── STATIC SECTIONS ── -->
+    <div id="static-content">
+
+    <!-- Hero -->
+    <section id="hero-intro">
+      <div>
+        <p class="hero-role">// Full-Stack Developer &amp; IoT Maker</p>
+        <h1 class="hero-name">Patrick<br>James<br><span class="accent">Romasanta</span></h1>
+        <div class="hero-links">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="https://github.com/Mr-Patrick-James" target="_blank" class="btn-outline">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="hero-bio">
+        <p>
+          I build web systems, desktop apps, and IoT prototypes that solve real problems.
+          Shipping projects ranging from gym management platforms to Arduino-based flood alert systems.
+        </p>
+        <div class="about-tags" style="margin-top:24px;">
+          <span class="tag">PHP</span>
+          <span class="tag">C#</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">VueJS</span>
+          <span class="tag">Arduino</span>
+          <span class="tag">MySQL</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <div class="stats-bar">
+      <div class="stat"><div class="stat-num">14<span>+</span></div><div class="stat-label">Projects</div></div>
+      <div class="stat"><div class="stat-num">5<span>+</span></div><div class="stat-label">Languages</div></div>
+      <div class="stat"><div class="stat-num">3</div><div class="stat-label">Domains</div></div>
+      <div class="stat"><div class="stat-num">1</div><div class="stat-label">IoT Prototype</div></div>
+    </div>
+
+    <!-- About -->
+    <section id="about" class="section dark">
+      <p class="section-title">// About Me</p>
+      <h2>Who I Am</h2>
+      <div class="about-grid">
+        <div>
+          <p>Hi, I'm Patrick James V. Romasanta — a passionate developer and tech enthusiast who loves building things that actually work. I specialize in web systems, desktop applications, and IoT hardware projects.</p>
+          <p style="margin-top:16px;">My work focuses on functional, user-friendly systems that solve real-world problems. Whether it's a college enrollment platform or a flood detection prototype, I care about the impact of what I build.</p>
+        </div>
+        <div>
+          <p>I'm constantly experimenting with new technologies and pushing my skills across multiple domains — from PHP backends and Vue frontends to C# desktop apps and Arduino circuits.</p>
+          <div class="about-tags" style="margin-top:20px;">
+            <span class="tag">Web Development</span>
+            <span class="tag">Desktop Apps</span>
+            <span class="tag">IoT / Hardware</span>
+            <span class="tag">Game Dev</span>
+            <span class="tag">UI/UX Design</span>
+            <span class="tag">Open Source</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <p class="section-title">// Work</p>
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card"><span class="project-tag">Web · PHP</span><h3>FIT_GYM_V2</h3><p>Advanced Gym Management System with user tracking and payments.</p><p class="meta">PHP, MySQL — Mar 27, 2026</p><a href="https://github.com/Mr-Patrick-James" class="btn" target="_blank">GitHub ↗</a></div>
+        <div class="card"><span class="project-tag">Web · PHP</span><h3>CNESIS</h3><p>College enrollment &amp; student management system.</p><p class="meta">PHP, MySQL — Mar 26, 2026</p><a href="https://github.com/Mr-Patrick-James" class="btn" target="_blank">GitHub ↗</a></div>
+        <div class="card"><span class="project-tag">Web · JS</span><h3>OSAS_WEBSYS</h3><p>Web system for tracking student attendance &amp; violations.</p><p class="meta">JavaScript — Dec 14, 2025</p><a href="https://github.com/Mr-Patrick-James" class="btn" target="_blank">GitHub ↗</a></div>
+        <div class="card"><span class="project-tag">Web · Vue</span><h3>OSAS-SYSTEM-ALPHA</h3><p>Alpha OSAS management system built with VueJS.</p><p class="meta">Vue, JS, HTML — Jul 13, 2025</p><a href="https://github.com/Mr-Patrick-James" class="btn" target="_blank">GitHub ↗</a></div>
+        <div class="card"><span class="project-tag">Web · JS</span><h3>ClassroomFinanceTracker</h3><p>Web app to track classroom finances.</p><p class="meta">HTML, JS — Jul 21, 2025</p><a href="https://github.com/Mr-Patrick-James" class="btn" target="_blank">GitHub ↗</a></div>
+        <div class="card"><span class="project-tag">Desktop · C#</span><h3>Snake Game</h3><p>Classic Snake game built in C#.</p><p class="meta">C#</p><a href="https://github.com/Mr-Patrick-James" class="btn" target="_blank">GitHub ↗</a></div>
+        <div class="card"><span class="project-tag">Desktop · C#</span><h3>Brazilian Checkers</h3><p>Brazilian Checkers game using Windows Forms.</p><p class="meta">C#</p><a href="https://github.com/Mr-Patrick-James" class="btn" target="_blank">GitHub ↗</a></div>
+        <div class="card"><span class="project-tag">Desktop · C#</span><h3>Pokemon Game</h3><p>Custom Pokemon game project.</p><p class="meta">C#</p><a href="https://github.com/Mr-Patrick-James" class="btn" target="_blank">GitHub ↗</a></div>
+        <div class="card"><span class="project-tag">IoT · Arduino</span><h3>⚡ Arduino Flood Alert System</h3><p>Prototype IoT flood alert system that detects water levels and triggers notifications for flood warning.</p><p class="meta">Arduino, LDR, Rain &amp; Water Level Sensors, Stepper Motor — Mar 26, 2026</p><span class="btn" style="cursor:default;opacity:0.4;">Private / Prototype</span></div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section dark">
+      <p class="section-title">// Expertise</p>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><div class="skill-icon">💻</div><h3>Languages</h3><p>C#, PHP, JavaScript, HTML, CSS</p></div>
+        <div class="skill-card"><div class="skill-icon">⚙️</div><h3>Frameworks</h3><p>VueJS, Windows Forms</p></div>
+        <div class="skill-card"><div class="skill-icon">🔌</div><h3>Hardware / IoT</h3><p>Arduino, LDR, Rain &amp; Water Level Sensors, Stepper Motor</p></div>
+        <div class="skill-card"><div class="skill-icon">🗄️</div><h3>Database</h3><p>MySQL, SQLite</p></div>
+        <div class="skill-card"><div class="skill-icon">🛠️</div><h3>Tools &amp; Other</h3><p>Git, GitHub, UI/UX Design, Game Development</p></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <p class="section-title">// Get In Touch</p>
+      <h2>Let's Work Together</h2>
+      <div class="contact-info">
+        <a href="mailto:patrickjames@example.com">patrickjames@example.com</a>
+        <a href="https://github.com/Mr-Patrick-James" target="_blank">GitHub ↗</a>
+        <a href="https://linkedin.com/in/patrickjames" target="_blank">LinkedIn ↗</a>
+        <a href="https://twitter.com/patrickjames" target="_blank">Twitter ↗</a>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-column logo-contact">
+          <p class="footer-logo-text">PJ<span>.</span>dev</p>
+          <p>patrickjames@example.com</p>
+        </div>
+        <div class="footer-column">
+          <h4>Patrick James V. Romasanta</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://github.com/Mr-Patrick-James" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/patrickjames" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/patrickjames" target="_blank">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy;2026 Patrick James V. Romasanta &nbsp;|&nbsp; All rights reserved.</p>
+      </div>
+    </footer>
+
+    </div><!-- /#static-content -->
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Card spotlight effect
+    document.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('mousemove', e => {
+        const r = card.getBoundingClientRect();
+        card.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100) + '%');
+        card.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100) + '%');
+      });
+    });
+  </script>
+</body>
+</html>
