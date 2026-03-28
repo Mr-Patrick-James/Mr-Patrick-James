@@ -1,6 +1,7 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=ff3c3c&height=200&section=header&text=Patrick%20James%20V.%20Romasanta&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Developer%20%26%20Maker&descAlignY=58&descSize=18)
+# PATRICK JAMES V. ROMASANTA
+### Developer & Maker — Web · Desktop · IoT
 
 </div>
 
@@ -9,6 +10,14 @@
 ### `< Web · Desktop · IoT />`
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Mono&size=16&pause=1000&color=FF3C3C&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;IoT+%26+Hardware+Maker;C%23+%7C+PHP+%7C+JavaScript+%7C+Vue;Building+things+that+actually+work.)](https://git.io/typing-svg)
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-ff3c3c?style=for-the-badge)](https://Mr-Patrick-James.github.io)
+
+> **Check out my interactive portfolio →** [Mr-Patrick-James.github.io](https://Mr-Patrick-James.github.io)
+
+[![Portfolio Preview](https://github.com/Mr-Patrick-James/Mr-Patrick-James.github.io/raw/main/assets/images/male_model-2.png)](https://Mr-Patrick-James.github.io)
 
 </div>
 
@@ -102,6 +111,7 @@ func main() {
 
 <div align="center">
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=ff3c3c&height=100&section=footer)
+---
+*Patrick James V. Romasanta — 2026*
 
 </div>
