@@ -42,8 +42,7 @@ func main() {
     username: "Mr-Patrick-James",
     role:     "Full-Stack Developer & IoT Maker",
     stack:    []string{"PHP", "C#", "JavaScript", "VueJS", "HTML", "CSS", "MySQL"},
-    hardware: []string{"Arduino", "LDR Sensor", "Rain Sensor", "Water Level Sensor"},
-    hobbies:  []string{"coding", "building IoT", "game dev", "UI/UX"},
+    hobbies:  []string{"Sleeping", "Eating", "Writing", "Reading"},
   }
   fmt.Println(me)
 }
