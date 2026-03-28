@@ -185,7 +185,7 @@ func main() {
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Syne&weight=800&size=28&pause=1000&color=FF3C3C&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+🙏;Keep+building.+Keep+shipping.+🚀;Let's+connect+and+create+something+cool!+⚡"/>
+  <b>🙏 Thanks for visiting! Keep building. Keep shipping. ⚡</b>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
