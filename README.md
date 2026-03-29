@@ -14,7 +14,7 @@
     </td>
     <td>
       <a href="https://Mr-Patrick-James.github.io" target="_blank">
-        <img width="300" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/Demonslayer%20Kimetsunoyaiba%20GIF%20by%20KonnichiwaFestival.gif"/>
+        <img width="300" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/2.gif"/>
       </a>
     </td>
   </tr>
