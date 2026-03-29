@@ -14,7 +14,7 @@
     </td>
     <td>
       <a href="https://my-portfolio-1ucwziffh-mr-patrick-james-projects.vercel.app" target="_blank">
-        <img width="300" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/2.gif"/>
+        <img width="300" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James/main/assets/images/2.gif"/>
       </a>
     </td>
   </tr>
@@ -168,9 +168,9 @@ func main() {
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/github-contribution-grid-snake.svg"/>
-    <img alt="snake animation" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/github-contribution-grid-snake.svg"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James/main/assets/images/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James/main/assets/images/github-contribution-grid-snake.svg"/>
+    <img alt="snake animation" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James/main/assets/images/github-contribution-grid-snake.svg"/>
   </picture>
 </p>
 
