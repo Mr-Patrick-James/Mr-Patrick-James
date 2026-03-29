@@ -7,6 +7,8 @@ function locomotive() {
     smooth: true,
     multiplier: 1.3,
     lerp: 0.1,
+    tablet: { smooth: true, multiplier: 1.3 },
+    smartphone: { smooth: false },
   });
 
   locoScroll.on("scroll", ScrollTrigger.update);
