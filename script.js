@@ -1,7 +1,11 @@
 gsap.registerPlugin(ScrollTrigger);
 
-// 1. LOCOMOTIVE SCROLL SETUP
+// 1. LOCOMOTIVE SCROLL SETUP — desktop only
+const isMobile = window.innerWidth <= 768;
+
 function locomotive() {
+  if (isMobile) return; // skip on mobile, use native scroll
+
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
@@ -379,7 +383,7 @@ gsap.to(imageSeq, {
     trigger: "#canvas-wrapper",
     start: "top top",
     end: "+=15000",
-    scroller: "#main",
+    scroller: isMobile ? window : "#main",
     pin: true,
   },
   onUpdate: render,

@@ -11,9 +11,15 @@ html, body {
   background-color: #111;
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
-  overflow: hidden; /* Locomotive Scroll handles scroll */
-  touch-action: pan-y;
-  -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 769px) {
+  body { overflow: hidden; }
+}
+
+@media (max-width: 768px) {
+  body { overflow-y: auto; }
+  #main { overflow-y: auto; height: auto; }
 }
 
 /* ========== MAIN SCROLL CONTAINER ========== */
