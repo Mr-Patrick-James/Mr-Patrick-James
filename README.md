@@ -13,7 +13,7 @@
       </p>
     </td>
     <td>
-      <a href="https://Mr-Patrick-James.github.io" target="_blank">
+      <a href="https://my-portfolio-1ucwziffh-mr-patrick-james-projects.vercel.app" target="_blank">
         <img width="300" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/2.gif"/>
       </a>
     </td>
@@ -57,7 +57,7 @@ func main() {
 <a href="https://linkedin.com/in/patrickjames"><img title="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="https://twitter.com/patrickjames"><img title="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>
 <a href="mailto:ventiletos12@gmail.com"><img title="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-<a href="https://Mr-Patrick-James.github.io"><img title="Portfolio" src="https://img.shields.io/badge/🌐_Live_Portfolio-ff3c3c?style=for-the-badge"></a>
+<a href="https://my-portfolio-1ucwziffh-mr-patrick-james-projects.vercel.app"><img title="Portfolio" src="https://img.shields.io/badge/🌐_Live_Portfolio-ff3c3c?style=for-the-badge"></a>
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
