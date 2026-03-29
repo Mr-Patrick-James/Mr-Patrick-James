@@ -14,7 +14,7 @@
     </td>
     <td>
       <a href="https://Mr-Patrick-James.github.io" target="_blank">
-        <img width="300" src="https://my-portfolio-1ucwziffh-mr-patrick-james-projects.vercel.app/main/assets/images/2.gif"/>
+        <img width="300" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James.github.io/main/assets/images/1.gif"/>
       </a>
     </td>
   </tr>
