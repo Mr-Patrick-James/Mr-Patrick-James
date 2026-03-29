@@ -5,7 +5,7 @@
     <td>
       <br>
       <p align="center">
-        <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;I'm+Mr.+PAT;Full-Stack+Developer;IoT+%26+Hardware+Maker;"/>
+        <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;I'm+Mr.+PAT;Full-Stack+Developer;"/>"/>
         <br>
         <img width="150" align="center" src="https://komarev.com/ghpvc/?username=Mr-Patrick-James&label=Profile%20Visitor&color=ff3c3c&style=for-the-badge" alt="Mr-Patrick-James"/>
         <br><br>
@@ -40,7 +40,7 @@ func main() {
   me := Developer{
     name:     "Patrick James V. Romasanta",
     username: "Mr-Patrick-James",
-    role:     "Full-Stack Developer & IoT Maker",
+    role:     "Full-Stack Developer",
     stack:    []string{"PHP", "C#", "JavaScript", "VueJS", "HTML", "CSS", "MySQL"},
     hobbies:  []string{"Sleeping", "Eating", "Writing", "Reading"},
   }
