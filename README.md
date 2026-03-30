@@ -136,10 +136,17 @@ func main() {
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Alarm%20Clock.png" width="30" height="30"/> Spent My Time
 
-<p align="center">
+<table width="100%" border="0">
+  <tr>
+    <td>
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
-</p>
+    </td>
+    <td align="center" width="35%">
+      <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 
 
