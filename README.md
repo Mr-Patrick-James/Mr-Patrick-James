@@ -136,9 +136,13 @@ func main() {
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Alarm%20Clock.png" width="30" height="30"/> Spent My Time
 
-<table width="100%" border="0">
-  <tr>
-    <td>
+<p align="center">
+  <a href="https://github.com/Mr-Patrick-James">
+    <img width="60%" src="https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=Mr-Patrick-James&hide_title=true&hide_border=true&langs_count=5&bg_color=00000000&text_color=777"/>
+    <img width="30%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"/>
+  </a>
+</p>
+
 <!--START_SECTION:waka-->
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-27-blue?style=flat)
 
@@ -213,12 +217,6 @@ Vue                      1 repo              ██░░░░░░░░░�
 
  Last Updated on 30/03/2026 12:59:35 UTC
 <!--END_SECTION:waka-->
-    </td>
-    <td align="center" width="35%">
-      <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" width="100%"/>
-    </td>
-  </tr>
-</table>
 
 
 
