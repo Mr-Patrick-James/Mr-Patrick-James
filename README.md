@@ -140,6 +140,15 @@ func main() {
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mr-Patrick-James&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Activity"/>
 </p>
 
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mr-Patrick-James&theme=radical&utcOffset=8"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mr-Patrick-James&theme=radical"/>
+</p>
+
+<p align="center">
+  <img width="99%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=radical"/>
+</p>
+
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
