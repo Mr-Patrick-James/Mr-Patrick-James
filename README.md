@@ -1,24 +1,16 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Patrick%20James%20V.%20Romasanta&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=45"/>
 
-<table border="0">
-  <tr>
-    <td>
-      <br>
-      <p align="center">
-        <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;I'm+Mr.+PAT;Full-Stack+Developer;"/>"/>
-        <br>
-        <img width="150" align="center" src="https://komarev.com/ghpvc/?username=Mr-Patrick-James&label=Profile%20Visitor&color=ff3c3c&style=for-the-badge" alt="Mr-Patrick-James"/>
-        <br><br>
-        <img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=Mr-Patrick-James&data=followers,repositories,stars,commits&theme=viridescent"/>
-      </p>
-    </td>
-    <td>
-      <a href="https://my-portfolio-1ucwziffh-mr-patrick-james-projects.vercel.app" target="_blank">
-        <img width="300" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James/main/assets/images/2.gif"/>
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;I'm+Mr.+PAT;Full-Stack+Developer;"/>
+  <br>
+  <img width="150" src="https://komarev.com/ghpvc/?username=Mr-Patrick-James&label=Profile%20Visitor&color=ff3c3c&style=for-the-badge" alt="Mr-Patrick-James"/>
+  <br><br>
+  <a href="https://my-portfolio-1ucwziffh-mr-patrick-james-projects.vercel.app" target="_blank">
+    <img width="60%" src="https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James/main/assets/images/2.gif"/>
+  </a>
+  <br><br>
+  <img width="80%" src="https://github-widgetbox.vercel.app/api/profile?username=Mr-Patrick-James&data=followers,repositories,stars,commits&theme=viridescent"/>
+</p>
 
 <h2 align="center">🧠 MY INFORMATION</h2>
 
