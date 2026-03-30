@@ -141,12 +141,12 @@ func main() {
 </p>
 
 <p align="center">
-  <img width="44%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mr-Patrick-James&hide_border=true&layout=donut&theme=transparent&title_color=00d4ff&text_color=ffffff&langs_count=6"/>
-  <img width="44%" src="https://github-readme-stats.vercel.app/api?username=Mr-Patrick-James&hide_border=true&theme=transparent&title_color=00d4ff&text_color=ffffff&icon_color=00d4ff&show_icons=true&hide_rank=true"/>
+  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mr-Patrick-James&theme=2077&utcOffset=8"/>
+  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mr-Patrick-James&theme=2077"/>
 </p>
 
 <p align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mr-Patrick-James&bg_color=00000000&color=00d4ff&line=00d4ff&point=ffffff&area_color=00d4ff&area=true&hide_border=true&custom_title=Contributions%20Over%20Time&title_color=00d4ff"/>
+  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=2077"/>
 </p>
 
 
@@ -165,7 +165,7 @@ func main() {
 </p>
 
 <p align="center">
-  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mr-Patrick-James&hide_border=true&layout=compact&theme=transparent&title_color=00d4ff&text_color=ffffff&langs_count=8"/>
+  <img width="50%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=nord_dark"/>
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
