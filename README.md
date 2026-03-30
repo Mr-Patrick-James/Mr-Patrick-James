@@ -143,6 +143,10 @@ func main() {
   </a>
 </p>
 
+<p align="center">
+  <img src="https://github.com/Mr-Patrick-James/Mr-Patrick-James/blob/main/images/stat.svg" alt="WakaTime Activity"/>
+</p>
+
 <!--START_SECTION:waka-->
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-27-blue?style=flat)
 
