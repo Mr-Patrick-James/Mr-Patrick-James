@@ -137,16 +137,16 @@ func main() {
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Alarm%20Clock.png" width="30" height="30"/> Spent My Time
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mr-Patrick-James&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mr-Patrick-James&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity"/>
 </p>
 
 <p align="center">
-  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mr-Patrick-James&theme=github_dark&utcOffset=8"/>
-  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mr-Patrick-James&theme=github_dark"/>
+  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mr-Patrick-James&theme=tokyonight&utcOffset=8"/>
+  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mr-Patrick-James&theme=tokyonight"/>
 </p>
 
 <p align="center">
-  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=github_dark"/>
+  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=tokyonight"/>
 </p>
 
 
