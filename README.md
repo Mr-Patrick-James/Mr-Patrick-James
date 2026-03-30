@@ -137,16 +137,16 @@ func main() {
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Alarm%20Clock.png" width="30" height="30"/> Spent My Time
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mr-Patrick-James&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mr-Patrick-James&bg_color=00000000&color=00d4ff&line=00d4ff&point=ffffff&area_color=00d4ff&area=true&hide_border=true&custom_title=Contribution%20Activity&title_color=00d4ff"/>
 </p>
 
 <p align="center">
-  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mr-Patrick-James&theme=tokyonight&utcOffset=8"/>
-  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mr-Patrick-James&theme=tokyonight"/>
+  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mr-Patrick-James&theme=nord_dark&utcOffset=8"/>
+  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mr-Patrick-James&theme=nord_dark"/>
 </p>
 
 <p align="center">
-  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=tokyonight"/>
+  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=nord_dark"/>
 </p>
 
 
@@ -156,16 +156,16 @@ func main() {
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" height="30"/> GitHub Stats
 
 <p align="center">
-  <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mr-Patrick-James&theme=dark&border_radius=10&hide_title=true&layout=compact&langs_count=10"/>
-  <img width="57%" src="https://github-readme-stats.vercel.app/api?username=Mr-Patrick-James&theme=dark&hide_border=false&include_all_commits=true&count_private=true"/>
+  <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mr-Patrick-James&theme=transparent&border_radius=10&hide_title=true&layout=compact&langs_count=10&hide_border=true&title_color=00d4ff&text_color=00d4ff"/>
+  <img width="57%" src="https://github-readme-stats.vercel.app/api?username=Mr-Patrick-James&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&title_color=00d4ff&text_color=ffffff&icon_color=00d4ff"/>
 </p>
 
 <p align="center">
-  <img width="60%" src="https://streak-stats.demolab.com?user=Mr-Patrick-James&theme=radical&hide_border=false"/>
+  <img width="60%" src="https://streak-stats.demolab.com?user=Mr-Patrick-James&theme=transparent&hide_border=true&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff&sideLabels=00d4ff&dates=ffffff"/>
 </p>
 
 <p align="center">
-  <img width="50%" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=dark"/>
+  <img width="50%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=nord_dark"/>
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
