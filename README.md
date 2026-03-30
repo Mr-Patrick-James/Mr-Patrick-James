@@ -137,14 +137,7 @@ func main() {
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Alarm%20Clock.png" width="30" height="30"/> Spent My Time
 
 <p align="center">
-  <a href="https://github.com/Mr-Patrick-James">
-    <img width="60%" src="https://github-readme-stats.vercel.app/api/wakatime?username=Mr_Patrick_James&hide_title=true&hide_border=true&langs_count=5&theme=dark&bg_color=00000000"/>
-    <img width="30%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://github.com/Mr-Patrick-James/Mr-Patrick-James/blob/main/images/stat.svg" alt="WakaTime Activity"/>
+  <img width="40%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"/>
 </p>
 
 <!--START_SECTION:waka-->
