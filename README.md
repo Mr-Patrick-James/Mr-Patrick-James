@@ -138,7 +138,7 @@ func main() {
 
 <p align="center">
   <a href="https://github.com/Mr-Patrick-James">
-    <img width="60%" src="https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=Mr-Patrick-James&hide_title=true&hide_border=true&langs_count=5&bg_color=00000000&text_color=777"/>
+    <img width="60%" src="https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=Mr_Patrick_James&hide_title=true&hide_border=true&langs_count=5&bg_color=00000000&text_color=777"/>
     <img width="30%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"/>
   </a>
 </p>
