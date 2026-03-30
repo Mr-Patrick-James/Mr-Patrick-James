@@ -19,7 +19,7 @@
   </tr>
 </table>
 
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Sparkling%20Heart.png" width="30" height="30"/> MY INFORMATION</h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Grinning%20Cat.png" width="30" height="30"/> MY INFORMATION</h2>
 
 ```go
 package main
@@ -146,7 +146,7 @@ func main() {
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Bar%20Chart.png" width="30" height="30"/> GitHub Stats
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" height="30"/> GitHub Stats
 
 <p align="center">
   <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mr-Patrick-James&theme=dark&border_radius=10&hide_title=true&layout=compact&langs_count=10"/>
