@@ -137,83 +137,8 @@ func main() {
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Alarm%20Clock.png" width="30" height="30"/> Spent My Time
 
 <p align="center">
-  <img width="40%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mr-Patrick-James&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Activity"/>
 </p>
-
-<!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-27-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 449 Contributions in the Year 2026
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 15 Public Repositories 
- > 
-> 🔑 0 Private Repositories 
- > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                105 commits         █████░░░░░░░░░░░░░░░░░░░░   19.20 % 
-🌆 Daytime                132 commits         ██████░░░░░░░░░░░░░░░░░░░   24.13 % 
-🌃 Evening                259 commits         ████████████░░░░░░░░░░░░░   47.35 % 
-🌙 Night                  51 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.32 % 
-```
-📅 **I'm Most Productive on Sunday** 
-
-```text
-Monday                   61 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.15 % 
-Tuesday                  76 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.89 % 
-Wednesday                59 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.79 % 
-Thursday                 53 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.69 % 
-Friday                   54 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.87 % 
-Saturday                 97 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.73 % 
-Sunday                   147 commits         ███████░░░░░░░░░░░░░░░░░░   26.87 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Manila
-
-💬 Programming Languages: 
-Markdown                 42 mins             █████████████████████████   100.00 % 
-
-🔥 Editors: 
-VS Code                  42 mins             █████████████████████████   100.00 % 
-
-🐱‍💻 Projects: 
-CyberFiction INspired    39 mins             ███████████████████████░░   91.98 % 
-My Profile               3 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   08.02 % 
-
-💻 Operating System: 
-Windows                  42 mins             █████████████████████████   100.00 % 
-```
-
-**I Mostly Code in PHP** 
-
-```text
-PHP                      5 repos             ████████░░░░░░░░░░░░░░░░░   33.33 % 
-HTML                     4 repos             ███████░░░░░░░░░░░░░░░░░░   26.67 % 
-JavaScript               2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.33 % 
-CSS                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-Vue                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-```
-
-
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/Mr-Patrick-James/Mr-Patrick-James/main/assets/bar_graph.png)
-
-
- Last Updated on 30/03/2026 12:59:35 UTC
-<!--END_SECTION:waka-->
 
 
 
