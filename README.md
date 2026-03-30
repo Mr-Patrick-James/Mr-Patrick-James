@@ -137,7 +137,7 @@ func main() {
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Alarm%20Clock.png" width="30" height="30"/> Spent My Time
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mr-Patrick-James&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Activity"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mr-Patrick-James&theme=radical&hide_border=true&area=true&custom_title=Contribution%20Activity&title_color=ff6e96&color=ff6e96&line=ff6e96&point=ffffff&area_color=ff6e96"/>
 </p>
 
 <p align="center">
