@@ -137,9 +137,8 @@ func main() {
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Alarm%20Clock.png" width="30" height="30"/> Spent My Time
 
 <p align="center">
-  <img width="30%" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"/>
-  <br><br>
-  <i>WakaTime stats will appear here once I start tracking coding sessions.</i>
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 </p>
 
 
