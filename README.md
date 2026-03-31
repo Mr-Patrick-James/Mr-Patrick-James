@@ -146,7 +146,7 @@ func main() {
 </p>
 
 <p align="center">
-  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=nord_dark"/>
+  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mr-Patrick-James&theme=nord_dark"/>
 </p>
 
 
