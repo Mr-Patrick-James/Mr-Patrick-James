@@ -145,9 +145,7 @@ func main() {
   <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mr-Patrick-James&theme=nord_dark"/>
 </p>
 
-<p align="center">
-  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mr-Patrick-James&theme=nord_dark"/>
-</p>
+
 
 
 
