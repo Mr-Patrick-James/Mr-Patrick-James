@@ -156,8 +156,8 @@ func main() {
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" height="30"/> GitHub Stats
 
 <p align="center">
-  <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mr-Patrick-James&bg_color=00000000&border_radius=10&hide_title=true&layout=compact&langs_count=10&hide_border=true&title_color=00d4ff&text_color=00d4ff"/>
-  <img width="57%" src="https://github-readme-stats.vercel.app/api?username=Mr-Patrick-James&bg_color=00000000&hide_border=true&include_all_commits=true&count_private=true&title_color=00d4ff&text_color=ffffff&icon_color=00d4ff"/>
+  <img width="32%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=Mr-Patrick-James&bg_color=00000000&border_radius=10&hide_title=true&layout=compact&langs_count=10&hide_border=true&title_color=00d4ff&text_color=00d4ff"/>
+  <img width="57%" src="https://github-readme-stats-salesp07.vercel.app/api?username=Mr-Patrick-James&bg_color=00000000&hide_border=true&include_all_commits=true&count_private=true&title_color=00d4ff&text_color=ffffff&icon_color=00d4ff"/>
 </p>
 
 <p align="center">
