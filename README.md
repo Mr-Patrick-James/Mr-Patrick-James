@@ -141,12 +141,12 @@ func main() {
 </p>
 
 <p align="center">
-  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mr-Patrick-James&theme=2077&utcOffset=8"/>
-  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mr-Patrick-James&theme=2077"/>
+  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mr-Patrick-James&theme=nord_dark&utcOffset=8"/>
+  <img width="44%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mr-Patrick-James&theme=nord_dark"/>
 </p>
 
 <p align="center">
-  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=2077"/>
+  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=nord_dark"/>
 </p>
 
 
