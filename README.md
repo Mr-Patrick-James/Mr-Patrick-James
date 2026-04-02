@@ -162,7 +162,7 @@ func main() {
 </p>
 
 <p align="center">
-  <img width="50%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-Patrick-James&theme=nord_dark"/>
+  <img width="50%" src="https://github-readme-stats-salesp07.vercel.app/api?username=Mr-Patrick-James&bg_color=00000000&hide_border=true&show_icons=true&title_color=00d4ff&text_color=00d4ff&icon_color=00d4ff&include_all_commits=true&count_private=true&hide_rank=false"/>
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
