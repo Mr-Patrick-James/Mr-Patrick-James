@@ -40,7 +40,7 @@ func main() {
     name:     "Patrick James V. Romasanta",
     username: "Mr-Patrick-James",
     role:     "Full-Stack Developer",
-    stack:    []string{"PHP", "C#", "JavaScript", "VueJS", "HTML", "CSS", "MySQL"},
+    stack:    []string{"PHP", "C#", "JavaScript", "VueJS", "HTML", "CSS", "MySQL", "Arduino"},
     hobbies:  []string{"Sleeping", "Eating", "Writing", "Reading"},
   }
   fmt.Println(me)
