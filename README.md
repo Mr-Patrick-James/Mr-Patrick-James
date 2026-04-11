@@ -190,6 +190,10 @@ func main() {
 </p>
 
 <p align="center">
+  <img src="assets/images/mario.gif" alt="Mario" />
+</p>
+
+<p align="center">
   <b>🙏 Thanks for visiting! Keep building. Keep grinding. ⚡</b>
 </p>
 
