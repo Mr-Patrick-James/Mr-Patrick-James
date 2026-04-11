@@ -186,10 +186,6 @@ func main() {
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/a5f17399d881c5651a89bfe4a621893f5e5b3d3e/images/marquee.svg"/>
-</p>
-
-<p align="center">
   <img src="assets/images/mario.gif" alt="Mario" />
 </p>
 
