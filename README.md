@@ -182,7 +182,7 @@ func main() {
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Press+Start+2P&size=15&center=true&vCenter=true&width=600&height=60&duration=3000&pause=1000&color=FFD700&lines=🙏+Thanks+for+visiting!;Keep+Building.+Keep+Grinding.+⚡" alt="Thanks for visiting"/>
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Courier+Prime&weight=700&size=22&center=true&vCenter=true&width=700&height=60&duration=3000&pause=1000&color=AAFF00&lines=🙏+Thanks+for+visiting!;Keep+Building.+Keep+Grinding.+⚡" alt="Thanks for visiting"/>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
