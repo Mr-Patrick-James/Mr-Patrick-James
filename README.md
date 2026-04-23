@@ -19,9 +19,10 @@
   </tr>
 </table>
 
-<h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Grinning%20Cat.png" width="30" height="30" style="vertical-align:middle"/> MY INFORMATION
-</h2>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Grinning%20Cat.png" width="30" height="30"/>
+  <strong style="font-size:1.5em"> MY INFORMATION</strong>
+</p>
 
 ```go
 package main
