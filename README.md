@@ -19,7 +19,9 @@
   </tr>
 </table>
 
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Grinning%20Cat.png" width="30" height="30"/> MY INFORMATION</h2>
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Grinning%20Cat.png" width="30" height="30" style="vertical-align:middle"/> MY INFORMATION
+</h2>
 
 ```go
 package main
